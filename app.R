@@ -567,15 +567,15 @@ server <- function(input, output) {
       Sys.sleep(0.1)
       n <- 4
       
-      #folder <- list.files(path = parseDirPath(volumes(), input$folder), full.names = TRUE)
-      folder <- list.files(path = '~/CREPE_shiny/MinimalReproducibleExample/TF_Annotation/', full.names = T)
+      folder <- list.files(path = parseDirPath(volumes(), input$folder), full.names = TRUE)
+      #folder <- list.files(path = '~/CREPE_shiny/MinimalReproducibleExample/TF_Annotation/', full.names = T)
       #folder <- list.files('~/OrthoFinderR/Results_test/', full.names = T)
       #print(folder)
       
-      #metadata <- read_csv(file = input$metadata$datapath) %>% 
-      #select("ensembl_gene_id", "external_gene_name") %>% distinct()
-      metadata <- read_csv(file = '~/Documents/CREPE_analysis/metadata_updated.csv') %>% 
-        select("ensembl_gene_id", "external_gene_name") %>% distinct()
+      metadata <- read_csv(file = input$metadata$datapath) %>% 
+      select("ensembl_gene_id", "external_gene_name") %>% distinct()
+      #metadata <- read_csv(file = '~/Documents/CREPE_analysis/metadata_updated.csv') %>% 
+        #select("ensembl_gene_id", "external_gene_name") %>% distinct()
       
       #metadata <- read_csv(file = "~/Documents/CREPE_analysis/metadata_updated.csv") %>% 
       #select("ensembl_gene_id", "external_gene_name") %>% distinct()
