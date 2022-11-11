@@ -2,7 +2,7 @@
 This the CREPE GitHub repository. 
 
 ### Launch on Binder
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dirostri/CREPE/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dirostri/CREPE/HEAD/?urlpath=rstudio)
 
 ### Running CREPE Locally
 1. Open the App.R script in RStudio
