@@ -1,0 +1,14 @@
+channels:
+ - defaults
+ - conda-forge
+ - bioconda
+dependendies:
+ - r-tidyverse
+ - r-shiny
+ - r-shinyFiles
+ - r-shinydashboard
+ - r-shinyjs
+ - r-phytools
+ - r-phylotools
+ - r-ape
+ - hmmer
