@@ -2,7 +2,7 @@ channels:
  - defaults
  - conda-forge
  - bioconda
-dependendies:
+dependencies:
  - r-base
  - r-tidyverse
  - r-shiny
