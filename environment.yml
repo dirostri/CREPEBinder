@@ -12,4 +12,5 @@ dependencies:
  - r-phytools
  - r-phylotools
  - r-ape
+ - r-cowplot
  - hmmer
