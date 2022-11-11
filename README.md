@@ -1,6 +1,9 @@
 # CREPE: A New ShinyR package for Transcription Factor Cataloguing 
 This the CREPE GitHub repository. 
 
+### Launch on Binder
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dirostri/CREPE/tree/main/HEAD)
+
 ### Running CREPE Locally
 1. Open the App.R script in RStudio
 2. Click on the Run App icon located at the top of the app
