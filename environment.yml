@@ -3,6 +3,7 @@ channels:
  - conda-forge
  - bioconda
 dependendies:
+ - r-base
  - r-tidyverse
  - r-shiny
  - r-shinyFiles
