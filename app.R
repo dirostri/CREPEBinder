@@ -327,10 +327,10 @@ server <- function(input, output) {
         filename = 'catalagueinfo.zip',
         content = function( file){
           # Set temporary working directory
-          owd <- setwd(tempdir())
-          on.exit(setwd( owd))
+          #owd <- setwd(tempdir())
+          #on.exit(setwd( owd))
           
-          incProgress(1/n, detail = 'Writing TF Distribution Plots') 
+          #incProgress(1/n, detail = 'Writing TF Distribution Plots') 
           
           # Save Files
           #Writes the outputs
@@ -339,11 +339,11 @@ server <- function(input, output) {
           write.csv(final_copy_v2, paste(input$species, "_CREPE_df.csv", sep = ""))
           
           # Zip them up
-          zip( file, c( paste(input$species, "_CREPE_FL.faa", sep = ""), 
-                        paste(input$species, "_CREPE_DBD.faa", sep = ""), 
-                        paste(input$species, "_CREPE_df.csv", sep = ""))
-          )
-          incProgress(1/n, detail = 'Finishing up!')
+          #zip( file, c( paste(input$species, "_CREPE_FL.faa", sep = ""), 
+                        #paste(input$species, "_CREPE_DBD.faa", sep = ""), 
+                        #paste(input$species, "_CREPE_df.csv", sep = ""))
+          #)
+          #incProgress(1/n, detail = 'Finishing up!')
         })
     }
     ) 
